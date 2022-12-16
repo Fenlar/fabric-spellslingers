@@ -1,5 +1,7 @@
 package net.exxude.spellslingers;
 
+import net.exxude.spellslingers.item.ModItemGroup;
+import net.exxude.spellslingers.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -10,6 +12,6 @@ public class Spellslingers implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
+		ModItems.registerModItems();
 	}
 }
